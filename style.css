@@ -48,7 +48,7 @@ nav a:hover {
 .descricao {
   background-color: #1a1a1a; /* Fundo um pouco mais claro para destacar */
   padding: 20px;
-  margin: 0 auto;
+  margin: 40px auto 0; /* <--- Aqui adicionamos espaço acima */
   width: 90%;
   max-width: 800px;
   border: 1px solid #333;
@@ -59,6 +59,11 @@ nav a:hover {
 .descricao span {
   color: #d5b4ff;
   font-size: 1.5em;
+}
+
+.descricao:hover {
+  transform: scale(1.05); /* Leve zoom no hover */
+  box-shadow: 0 0 20px rgba(185, 131, 255, 0.6);
 }
 
 /* ------------------ SEÇÕES GERAIS ------------------ */
