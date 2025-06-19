@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
 <head>
   <!-- Configurações básicas da página -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Camila França</title>
+  <base href="/portfolio-camila/">
   <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo CSS -->
 </head>
+
 
 <body>
   <!-- ======================= CABEÇALHO / MENU ======================= -->
@@ -23,14 +23,29 @@
   </header>
 
   <!-- ======================= SEÇÃO: SOBRE MIM ======================= -->
-  <section class="hero" id="sobre">
-    <h1>Prazer, Camila França!</h1>
-    <img src="img/Camila.jpg" alt="Camila França" class="foto-perfil">
-    <div class="descricao">
-      <p><span class="meu-nome">Camila França</span></p>
-      <p>Analista de Dados em formação, com foco em saúde, mas com habilidades aplicáveis a diferentes áreas de negócio. Busco transformar dados em decisões inteligentes, seja em hospitais, empresas ou produtos digitais.</p>
-    </div>
-  </section>
+<section class="hero" id="sobre">
+  <h1>Prazer, Camila França!</h1>
+  <img src="img/Camila.jpg" alt="Camila França" class="foto-perfil">
+
+  <!-- Apresentação profissional -->
+  <div class="bloco sobre-apresentacao">
+    <p>Olá! Sou <strong>Camila França</strong>, Analista de Dados em formação, com foco em saúde, mas com habilidades aplicáveis a diferentes áreas de negócio. Busco transformar dados em decisões inteligentes, seja em hospitais, empresas ou produtos digitais.</p>
+  </div>
+
+  <!-- Soft Skills -->
+  <div class="bloco skills">
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Raciocínio lógico e pensamento analítico</li>
+      <li>Proatividade na resolução de problemas</li>
+      <li>Comunicação clara e empatia</li>
+      <li>Autonomia e responsabilidade</li>
+      <li>Resiliência e adaptabilidade</li>
+      <li>Curiosidade e aprendizado contínuo</li>
+    </ul>
+  </div>
+</section>
+
 
   <!-- ======================= SEÇÃO: FORMAÇÃO ACADÊMICA ======================= -->
   <section id="formacao">
@@ -144,31 +159,32 @@
 <section id="projetos">
   <h2>Projetos</h2>
   <div class="card-container">
-    <a href="analise.html" class="card-link">
+    <a href="Projetos/analise.html" class="card-link">
       <div class="card">
         <h3>Análise de Dados</h3>
       </div>
     </a>
 
-    <a href="dashboard.html" class="card-link">
+    <a href="Projetos/dashboard.html" class="card-link">
       <div class="card">
         <h3>Dashboard no Power BI</h3>
       </div>
     </a>
 
-    <a href="clusterizacao.html" class="card-link">
+    <a href="Projetos/clusterizacao-r.html" class="card-link">
       <div class="card">
         <h3>Clusterização em R</h3>
       </div>
     </a>
 
-    <a href="ia.html" class="card-link">
+    <a href="Projetos/ia.html" class="card-link">
       <div class="card">
         <h3>Inteligência Artificial</h3>
       </div>
     </a>
   </div>
 </section>
+
 
 
   <!-- ======================= SEÇÃO: CONTATO ======================= -->
