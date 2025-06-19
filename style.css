@@ -29,20 +29,39 @@ nav a:hover {
 /* ------------------ SEÇÃO HERO (INÍCIO DO SITE) ------------------ */
 .hero {
   text-align: center;
-  padding: 50px 20px;
-}
-
-.hero h1 {
-  font-size: 2.5em;
-  color: #B983FF;
+  padding: 60px 20px;
 }
 
 .foto-perfil {
-  width: 250px;
   border-radius: 12px;
-  border: 3px solid #B983FF;
-  margin: 20px 0;
+  width: 200px;
+  border: 2px solid #a070ff;
+  box-shadow: 0 0 10px rgba(160, 112, 255, 0.5);
+  margin: 20px auto;
 }
+
+.bloco {
+  background-color: #1a1a1a;
+  color: #ccc;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  text-align: left;
+  border: 1px solid #333;
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.1);
+}
+
+.skills h3 {
+  color: #d5b4ff;
+  margin-bottom: 10px;
+}
+
+.bloco p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
 
 /* ------------------ DESCRIÇÃO SOBRE VOCÊ ------------------ */
 .descricao {
