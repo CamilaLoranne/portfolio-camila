@@ -1,0 +1,125 @@
+/* ------------------ ESTILIZAÇÃO GERAL ------------------ */
+body {
+  background-color: #0e0e0e; /* Fundo escuro */
+  color: #eee; /* Texto claro para contraste */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa e moderna */
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------ CABEÇALHO ------------------ */
+header {
+  background-color: #111; /* Fundo do cabeçalho */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #B983FF; /* Cor roxa para destaque */
+  margin: 0 0 10px 0;
+}
+
+header nav a {
+  color: #B983FF; /* Links roxos */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #9b64d6; /* Tom mais escuro ao passar o mouse */
+}
+
+/* ------------------ CONTAINER PRINCIPAL ------------------ */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ------------------ CAIXAS DE CONTEÚDO ------------------ */
+.descricao,
+.detalhes,
+.link-projeto {
+  background-color: #1a1a1a; /* Fundo escuro para as caixas */
+  padding: 20px;
+  border-radius: 10px; /* Cantos arredondados */
+  margin-bottom: 25px; /* Espaço entre seções */
+  box-shadow: 0 0 10px rgba(185, 131, 255, 0.3); /* Sombra roxa suave */
+}
+
+/* ------------------ TÍTULOS ------------------ */
+h2 {
+  color: #B983FF;
+  margin-bottom: 15px;
+}
+
+/* ------------------ LISTAS ------------------ */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ccc;
+}
+
+/* ------------------ BOTÕES / LINKS DE AÇÃO ------------------ */
+.btn {
+  display: inline-block;
+  background-color: #B983FF; /* Roxo */
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9b64d6; /* Roxo mais escuro no hover */
+}
+
+/* ------------------ NOVOS PROJETOS ------------------ */
+.projeto {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 10px rgba(185, 131, 255, 0.3);
+}
+
+.projeto h2 {
+  color: #B983FF;
+  margin-bottom: 10px;
+}
+
+.projeto ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ccc;
+}
+
+/* ------------------ RODAPÉ ------------------ */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
