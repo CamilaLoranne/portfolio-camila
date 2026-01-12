@@ -27,33 +27,6 @@ nav a:hover {
 }
 
 /* ------------------ SEÇÃO HERO (INÍCIO DO SITE) ------------------ */
-/* Estrutura flexível para a seção */
-.content-wrapper {
-  display: flex;
-  justify-content: space-between; /* Espaça a foto e o texto */
-  align-items: center; /* Alinha verticalmente */
-  padding: 20px; /* Adiciona padding para dar mais espaçamento */
-}
-
-.text-content {
-  flex: 1;
-  padding-right: 20px; /* Espaçamento à direita do texto */
-  text-align: left; /* Alinha o texto à esquerda */
-}
-
-.image-content {
-  flex: 1;
-  text-align: right; /* Alinha a imagem à direita */
-}
-
-.foto-perfil {
-  width: 180px; /* Ajuste o tamanho conforme necessário */
-  height: auto;
-  border-radius: 50%;
-  border: 2px solid #a070ff;
-  box-shadow: 0 0 10px rgba(160, 112, 255, 0.5);
-}
-
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -317,6 +290,7 @@ footer a:hover {
   }
 
 }
+
 
 
 
